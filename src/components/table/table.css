@@ -1,0 +1,30 @@
+.table_title {
+  text-align: center;
+  justify-content: space-between;
+}
+
+
+.table_row {
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px -1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+.table_elem,
+.title_elem {
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.table_title-text:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.title_elem {
+  padding-top: 8% !important;
+  padding-bottom: 8% !important;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
